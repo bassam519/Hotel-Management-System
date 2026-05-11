@@ -71,7 +71,7 @@ Handles:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Hotel-Management-System-Python.git
+git clone https://github.com/bassam519/Hotel-Management-System.git
 ```
 
 Go to the project folder:
