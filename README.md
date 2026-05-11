@@ -1,103 +1,80 @@
-# Hotel Management System
+# 🏨 Hotel Management System
 
-A desktop-based Hotel Management System developed using Python and Tkinter GUI.  
-The project helps manage hotel rooms, guests, and reservations using Object-Oriented Programming concepts.
+A desktop-based Hotel Management System developed using **Python** and **Tkinter GUI** 🖥️.  
+This project is built using **Object-Oriented Programming (OOP)** concepts and uses **file handling** for data storage.
 
----
-
-## Features
-
-- Add and manage rooms
-- Register guests
-- Create reservations
-- Check room availability
-- Store data using text files
-- Simple GUI using Tkinter
-- OOP implementation
+It helps manage hotel operations such as room management, guest registration, and reservations.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- Python
-- Tkinter
-- OOP
-- File Handling
-
----
-
-## Project Structure
-
-```text
-Hotel Management System
-│
-├── Rooms.txt
-├── Guests.txt
-├── Reservations.txt
-└── main.py
-```
+- 🛏️ Add, update, and manage rooms  
+- 👤 Register and manage guests  
+- 📅 Create and manage reservations  
+- 🔍 Check room availability  
+- 💾 Store data using text files  
+- 🪟 Simple and user-friendly GUI using Tkinter  
+- 🧱 Fully implemented using OOP principles  
 
 ---
 
-## Classes
+## 🛠️ Tech Stack
 
-### Room
-Handles:
-- Room ID
-- Room type
-- Price
-- Availability
+- Python 🐍  
+- Tkinter 🪟  
+- Object-Oriented Programming (OOP) 🧱  
+- File Handling 📁  
 
-### Person
-Base class containing:
-- ID
-- Name
+---
 
-### Guest
+## 📂 Project Structure
+
+Hotel Management System  
+│  
+├── Rooms.txt  
+├── Guests.txt  
+├── Reservations.txt  
+└── main.py  
+
+---
+
+## 🧩 System Design (Classes)
+
+### 🛏️ Room Class
+Handles room-related data:
+- Room ID 🆔  
+- Room type (Single, Double, Suite, etc.) 🏷️  
+- Price per night 💰  
+- Availability status ✅  
+
+---
+
+### 👤 Person Class
+Base class for all people in the system:
+- ID 🆔  
+- Name 📝  
+
+---
+
+### 🧍 Guest Class
 Inherits from Person:
-- Phone number
-- Email address
-
-### Reservation
-Handles:
-- Reservation details
-- Check-in / Check-out
-- Guest booking
+- Phone number 📱  
+- Email address 📧  
 
 ---
 
-## Installation
+### 📅 Reservation Class
+Handles booking operations:
+- Guest details 👤  
+- Room details 🛏️  
+- Check-in date 🕒  
+- Check-out date 🕒  
 
-Clone the repository:
+---
 
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/bassam519/Hotel-Management-System.git
-```
-
-Go to the project folder:
-
-```bash
-cd Hotel-Management-System-Python
-```
-
-Run the project:
-
-```bash
-python main.py
-```
-
----
-
-## Future Improvements
-
-- Database integration
-- Admin login system
-- Better UI design
-- Search and filter options
-- Online reservation support
-
----
-
-## Author
-
-Bassam
